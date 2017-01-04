@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Shop</string>
+    <string name="checkout">Checkout</string>
+    <string name="language">Русский</string>
+    <string name="title_Shop">Shop</string>
+
+    <string name="nav_item_main">Home</string>
+    <string name="nav_item_profile_label">Account</string>
+    <string name="nav_item_authorization">Sign in</string>
+    <string name="nav_item_register">Register</string>
+    <string name="nav_item_basket_label">Basket</string>
+    <string name="nav_item_basket_value">Empty</string>
+    <string name="nav_item_about_shop_label">About</string>
+    <string name="nav_item_about_shop_contacts">Contacts</string>
+    <string name="nav_item_about_app">About app</string>
+    <string name="nav_item_orders">Orders</string>
+    <string name="nav_item_logout">Logout</string>
+    <string name="buy">ORDER IT</string>
+    <string name="loading_more">Loading moar...</string>
+    <string name="all">All</string>
+    <string name="a_catalog_filter_reset_all">Reset all</string>
+    <string name="a_catalog_filter_by_price_asc">Price ASC</string>
+    <string name="a_catalog_filter_by_price_desc">Price DESC</string>
+    <string name="description">description</string>
+    <string name="tab_feedback">feedback</string>
+    <string name="tab_stock">stock</string>
+    <string name="label_item_count">Item count</string>
+    <string name="select">Select</string>
+    <string name="cancel">Cancel</string>
+    <string name="orders_invno">Invoice No</string>
+    <string name="orders_date">Date</string>
+    <string name="orders_sum">Sum</string>
+    <string name="orders_status">Status</string>
+    <string name="order_name">Name</string>
+    <string name="order_qty">Quantity</string>
+    <string name="order_price">Price</string>
+    <string name="order_cost">Cost</string>
+    <string name="total_item">Total item %1$s</string>
+    <string name="total_price">Total price %1$s</string>
+    <string name="pager_adapter_descr">Description</string>
+    <string name="pager_adapter_comment">Comments</string>
+    <string name="pager_adapter_stocks">Stocks</string>
+
+
+
+</resources>

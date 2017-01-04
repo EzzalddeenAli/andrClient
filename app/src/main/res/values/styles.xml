@@ -1,0 +1,145 @@
+<resources>
+
+    <style name="Base.Theme.ShopClnt" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#ff55ff</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#000</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ShopClnt" parent="Base.Theme.ShopClnt">
+        <item name="actionBarSize">@dimen/toolbarHeight</item>
+    </style>
+
+    <style name="SampleTheme.Light" parent="Base.Theme.ShopClnt">
+        <item name="numberPickerStyle">@style/NPWidget.Holo.Light.NumberPicker</item>
+    </style>
+
+    <style name="Theme.ShopClnt.Main" parent="Base.Theme.ShopClnt">
+
+    </style>
+
+    <style name="Widget.ShopClnt.toolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorControlHighlight">#1155ff</item>
+    </style>
+
+    <style name="Widget.Base.ShopClnt.Button" parent="Widget.AppCompat.Button"/>
+
+    <style name="Widget.ShopClnt.Button" parent="Widget.Base.ShopClnt.Button"/>
+
+    <style name="Widget.ShopClnt.Button.Primary" parent="Widget.ShopClnt.Button">
+        <item name="android:textSize">@dimen/text_size_primary</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:minHeight">@dimen/view_min_height</item>
+        <item name="android:minWidth">@dimen/view_min_width</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Shop" parent="@android:style/Theme.Holo.Light">
+        <item name="android:imageButtonStyle">@style/ImageButtonShop</item>
+        <item name="android:seekBarStyle">@style/SeekBarShop</item>
+        <item name="android:ratingBarStyleSmall">@style/RatingBarSmallShop</item>
+    </style>
+
+    <style name="ImageButtonShop" parent="@android:style/Widget.Holo.Light.ImageButton">
+    </style>
+
+    <style name="SeekBarShop" parent="@android:style/Widget.Holo.Light.SeekBar">
+    </style>
+
+    <style name="RatingBarSmallShop" parent="@android:style/Widget.Holo.Light.RatingBar.Small">
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:layout_height">20.0dip</item>
+    </style>
+
+    <style name="Shop.Text" parent="@style/Shop">
+        <item name="android:textSize">14.0sp</item>
+    </style>
+
+    <style name="Shop.Text.H2" parent="@style/Shop.Text">
+        <item name="android:textSize">18.0sp</item>
+    </style>
+
+    <style name="Shop.Text.H2.Navigation" parent="@style/Shop.Text.H2">
+        <item name="android:textColor">@color/navigation_menu_grey</item>
+    </style>
+
+    <style name="Shop.Text.H4" parent="@style/Shop.Text">
+        <item name="android:textSize">@dimen/micro_text_size</item>
+    </style>
+
+    <style name="Shop.Text.H4.Black" parent="@style/Shop.Text.H4">
+        <item name="android:textColor">#ff000000</item>
+    </style>
+
+    <style name="Shop.Text.H4.Black.Bold" parent="@style/Shop.Text.H4.Black">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="SpecialButton" parent="BaseButton">
+        <item name="colorButtonNormal">#FF825C</item>
+    </style>
+
+    <style name="BaseButton" parent="Widget.AppCompat.Button">
+    </style>
+
+
+    <style name="Shop.Button" parent="@style/Shop">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Shop.Button.Red" parent="@style/Shop.Button">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+
+    <style name="RadioButtonShopRed" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/btn_radio_light</item>
+    </style>
+
+    <style name="Shop.Text.H2.Grey" parent="@style/Shop.Text.H2">
+        <item name="android:textColor">#ff686868</item>
+    </style>
+
+    <style name="Shop.Text.ItemTabButton" parent="@style/Shop.Text">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff686868</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="Shop.Text.H1" parent="@style/Shop.Text">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+    <style name="Shop.Text.H1.White" parent="@style/Shop.Text.H1">
+        <item name="android:textColor">#fffffeff</item>
+    </style>
+    <style name="Shop.Text.H1.White.Bold" parent="@style/Shop.Text.H1.White">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Shop.Text.H3" parent="@style/Shop.Text">
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="Shop.Text.H3.White" parent="@style/Shop.Text.H3">
+        <item name="android:textColor">#fffffeff</item>
+    </style>
+
+    <style name="Shop.Text.H0" parent="@style/Shop.Text">
+        <item name="android:textSize">@dimen/huge_text_size</item>
+    </style>
+    <style name="Shop.Text.H0.White" parent="@style/Shop.Text.H0">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Shop.Text.H0.White.Bold" parent="@style/Shop.Text.H0.White">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>

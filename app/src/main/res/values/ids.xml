@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="productList_loader" type="id" />
+    <item name="catalogList_loader" type="id" />
+    <item name="productInfo_loader" type="id" />
+    <item name="cartInfo_loader" type="id" />
+</resources>

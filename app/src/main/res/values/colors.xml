@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="selectable_background_color">#ffd92d</color>
+
+    <color name="text_primary_color">#000000</color>
+    <color name="text_primary_color_disabled">#c9c6c6</color>
+
+    <color name="button_primary_solid_color_pressed">#feeace</color>
+    <color name="button_primary_solid_color_normal">#fedd60</color>
+
+    <color name="dark">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#ff8800</color>
+    <color name="tint">#636363</color>
+    <color name="text_disabled">#999</color>
+    <color name="dark_red">#eee50026</color>
+    <color name="basket_colors">#ee101010</color>
+    <color name="navigation_menu_grey">#ff454545</color>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/std_margin" android:paddingRight="@dimen/std_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+        android:background="#f00"
+        android:textSize="@dimen/small_text_size"
+        android:id="@+id/button_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/std_margin"
+        android:text="@string/a_catalog_filter_reset_all"
+        style="@style/Shop.Button.Red" />
+</FrameLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/order_items"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/divider"
+        android:background="#000"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/order_items" />
+
+    <FrameLayout
+        android:id="@+id/product_detail_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/divider" />
+
+    <RelativeLayout
+        android:id="@+id/select_product_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/divider"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/boxes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:text="Select product to view details" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

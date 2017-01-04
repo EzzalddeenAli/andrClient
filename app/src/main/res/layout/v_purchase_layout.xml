@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/basket_summary_height"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <LinearLayout
+        android:alpha="255"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30000"
+            style="@style/Shop.Text.H1.White.Bold" />
+    </LinearLayout>
+    <TextView
+        android:alpha="175"
+        android:textStyle="normal"
+        android:id="@+id/purchase_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buy"
+        android:drawableLeft="@drawable/ic_cart"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        style="@style/Shop.Text.H0.White.Bold" />
+</merge>

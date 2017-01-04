@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pood</string>
+    <string name="checkout">Kassasse</string>
+    <string name="language">Eesti</string>
+    <string name="title_Shop">Pood</string>
+
+    <string name="nav_item_main">Avaleht</string>
+    <string name="nav_item_profile_label">Kasutajakonto</string>
+    <string name="nav_item_authorization">Logi sisse</string>
+    <string name="nav_item_register">Registreerimine</string>
+    <string name="nav_item_basket_label">Ostukorv</string>
+    <string name="nav_item_basket_value">Tühi</string>
+    <string name="nav_item_about_shop_label">Firmast</string>
+    <string name="nav_item_about_shop_contacts">Kontaktid</string>
+    <string name="nav_item_about_app">Rakendusest</string>
+    <string name="nav_item_orders">Tellimused</string>
+    <string name="nav_item_logout">Logi välja</string>
+    <string name="buy">Osta</string>
+    <string name="loading_more">laadin rohkem...</string>
+    <string name="all">Kõik</string>
+    <string name="a_catalog_filter_reset_all">Lähtesta kõik</string>
+    <string name="a_catalog_filter_by_price_asc">Hind tõusev</string>
+    <string name="a_catalog_filter_by_price_desc">Hind kahanevalt</string>
+    <string name="description">kirjeldus</string>
+    <string name="tab_feedback">tagasiside</string>
+    <string name="tab_stock">laos</string>
+    <string name="label_item_count">Item count</string>
+    <string name="select">Vali</string>
+    <string name="cancel">Loobu</string>
+    <string name="orders_invno">Arve nr</string>
+    <string name="orders_date">Kuupäev</string>
+    <string name="orders_sum">Summa</string>
+    <string name="orders_status">Staatus</string>
+    <string name="order_name">Nimi</string>
+    <string name="order_qty">Kogus</string>
+    <string name="order_price">Hind</string>
+    <string name="order_cost">Kokku</string>
+    <string name="total_item">Toote arv %1$s</string>
+    <string name="total_price">Hind kokku %1$s</string>
+    <string name="pager_adapter_descr">Kirjeldus</string>
+    <string name="pager_adapter_comment">Kommentaatid</string>
+    <string name="pager_adapter_stocks">Ladu</string>
+</resources>

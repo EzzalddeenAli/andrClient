@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="48.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="16.0sp"
+        android:layout_gravity="bottom"
+        android:id="@+id/label"
+        android:paddingLeft="@dimen/std_margin"
+        android:paddingRight="@dimen/std_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4.0dip"
+        android:maxLines="1"
+        style="@style/Shop.Text.H4.Black.Bold" />
+    <View
+        android:layout_gravity="bottom"
+        android:background="#ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip" />
+</FrameLayout>
